@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_height="wrap_content"
+		    android:minHeight="58dip"
+		    android:orientation="horizontal"
+		    android:gravity="center_vertical" 
+		    android:focusable="true" android:layout_width="250dip" android:minWidth="250dip" android:clickable="true" android:background="@drawable/player_button">
+    <TextView android:layout_height="fill_parent" android:layout_width="30dip" android:id="@+id/tableColor" android:text="10" android:textColor="#ffffff" android:gravity="center" android:textStyle="bold" android:background="#770000ff"></TextView>
+    <LinearLayout android:layout_margin="5dip" android:layout_width="48dip" android:id="@+id/photoPlayerView" android:layout_height="48dip"></LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:layout_height="fill_parent" android:layout_weight="1">
+        <TextView android:textColor="#ffffff" android:id="@+id/playerNameTextView" android:maxLines="2" android:gravity="left|center_vertical" android:textStyle="bold" android:layout_weight="0.5" android:layout_height="wrap_content" android:ellipsize="end" android:text="Player name very very looooooooooongggg bla bla bla gfhfghfghgfhfghgfhgfhgfh" android:layout_width="161dip"></TextView>
+        <TextView android:text="TextView" android:id="@+id/playerMoneyTextView" android:gravity="top|left" android:layout_width="fill_parent" android:layout_weight="0.5" android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+<LinearLayout android:id="@+id/borderPlayerView" android:layout_height="fill_parent" android:layout_width="1dip" android:background="#898989"></LinearLayout>
+</LinearLayout>

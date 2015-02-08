@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/LinearLayout01" xmlns:android="http://schemas.android.com/apk/res/android"  android:layout_width="wrap_content" android:orientation="vertical" android:layout_height="fill_parent">
+	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/playerTextView" android:layout_marginRight="5dip" android:layout_gravity="top|left" android:gravity="top|left" android:textStyle="bold" android:lines="1" android:text="10/25 players, prizepool : 100$ " android:layout_marginBottom="3dip"></TextView>
+	<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:orientation="vertical" android:layout_width="wrap_content" android:background="@drawable/grey_bkg">
+		<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TableRow1"></LinearLayout>
+		<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TableRow2"></LinearLayout>
+		<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TableRow3"></LinearLayout>
+		<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TableRow4"></LinearLayout>
+		<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TableRow5"></LinearLayout>
+		<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TableRow6"></LinearLayout>
+		<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TableRow7"></LinearLayout>
+	</LinearLayout>
+
+
+
+</LinearLayout>

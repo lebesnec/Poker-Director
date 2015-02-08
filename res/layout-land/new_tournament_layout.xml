@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:id="@+id/newTournamentMainlayout">
+	<LinearLayout android:id="@+id/LinearLayout02"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" android:layout_width="wrap_content" android:paddingLeft="20dip" android:paddingRight="20dip" android:paddingTop="10dip">
+		<TextView android:id="@+id/TextView02" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Name : " android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+		<EditText android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/newTournamentName" android:inputType="text" android:width="218dip"></EditText>
+	</LinearLayout>
+	
+
+	<LinearLayout android:id="@+id/LinearLayout03"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:orientation="horizontal" android:paddingLeft="20dip" android:paddingRight="20dip">
+		<TextView android:id="@+id/TextView03" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="Blinds will start at " android:layout_gravity="center"></TextView>
+		<EditText android:layout_height="wrap_content"
+			android:text="1" android:layout_width="wrap_content" android:id="@+id/newTournamentSB" android:layout_gravity="center" android:gravity="center" android:width="60dip" android:inputType="number"></EditText>
+		<TextView android:id="@+id/TextView04" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="/" android:layout_gravity="center"></TextView>
+		<EditText android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="2" android:id="@+id/newTournamentBB" android:layout_gravity="center" android:gravity="center" android:width="60dip" android:inputType="number"></EditText>
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/LinearLayout04"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="20dip" android:paddingRight="15dip" android:paddingBottom="3dip">
+		<TextView android:id="@+id/TextView05" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="and change every " android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="center"></TextView>
+		<EditText android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="10" android:id="@+id/newTournamentDuration" android:layout_gravity="center" android:gravity="center" android:width="60dip" android:inputType="number"></EditText>
+	<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="minutes" android:layout_gravity="center"></TextView>
+</LinearLayout>
+
+
+<LinearLayout android:id="@+id/LinearLayout05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_weight="1" android:layout_marginLeft="20dip" android:layout_marginRight="20dip"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="Once the last step of this tournament is reach, new turns will be automatically added by doubling the blinds."></TextView>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout06" android:layout_height="wrap_content" android:background="@drawable/toolbar" android:layout_width="fill_parent" android:minHeight="45dip" android:gravity="center"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/toolbar_button" android:minHeight="35dip" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_gravity="center" android:id="@+id/createTournamentButton" android:textColor="#ffffff" android:text="Create the tournament"></Button>
+</LinearLayout>
+
+</LinearLayout>
+

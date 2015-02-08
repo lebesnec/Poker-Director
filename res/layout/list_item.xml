@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_height="wrap_content"
+		    android:minHeight="?android:attr/listPreferredItemHeight"
+		    android:layout_width="fill_parent"
+		    android:orientation="horizontal"
+		    android:gravity="center_vertical" 
+		    android:focusable="true"
+		    android:background="@android:drawable/list_selector_background">
+		     
+    <LinearLayout android:layout_width="0dip"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1"
+		        android:orientation="vertical"
+		        android:paddingLeft="8dip" >
+        <TextView android:id="@+id/list_item1"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:maxLines="1"
+	            android:singleLine="true"
+	            android:ellipsize="end" />
+        <TextView android:id="@+id/list_item2"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:maxLines="1"
+	            android:singleLine="true"
+	            android:ellipsize="end" />
+    </LinearLayout>
+    
+    <View android:id="@+id/divider"
+        android:background="#ff313431"
+        android:layout_width="1dip"
+        android:layout_height="fill_parent"
+        android:paddingLeft="8dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip" />
+
+    <view class="poker.tm.ImageHolder" 
+    	android:focusable="true"
+    	android:id="@+id/list_button"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:paddingLeft="6dip"
+        android:paddingRight="6dip"
+        android:background="@android:drawable/list_selector_background" 
+        android:src="@drawable/play"
+        android:scaleType="center" />
+</LinearLayout>

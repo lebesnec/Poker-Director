@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_gravity="center"
+	android:gravity="center" android:id="@+id/playersMainlayout" android:focusable="true" android:focusableInTouchMode="true">
+
+	<ScrollView android:layout_height="wrap_content"
+		android:layout_weight="1" android:layout_width="fill_parent"
+		android:id="@+id/playersScrollView">
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:orientation="vertical" android:id="@+id/mainPlayersListView">
+			<LinearLayout android:id="@+id/LinearLayout01"
+				android:layout_height="wrap_content" android:layout_width="fill_parent" android:paddingTop="3dip">
+				<AutoCompleteTextView android:layout_height="wrap_content"
+					android:id="@+id/AutoCompleteTextView" android:completionThreshold="1"
+					android:layout_width="wrap_content" android:layout_weight="1"></AutoCompleteTextView>
+				
+				<view class="poker.tm.ImageHolder" 
+			    	android:focusable="true"
+			    	android:id="@+id/addPlayer"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:paddingLeft="3dip"
+			        android:paddingRight="6dip"
+			        android:background="@android:drawable/list_selector_background" 
+			        android:src="@drawable/create"
+			        android:scaleType="center" />
+			</LinearLayout>
+
+		<LinearLayout android:layout_width="fill_parent" android:orientation="vertical" android:id="@+id/playersListView" android:layout_height="fill_parent">
+			
+
+		</LinearLayout></LinearLayout>
+
+	</ScrollView>
+	<LinearLayout android:id="@+id/LinearLayout06"
+		android:layout_height="wrap_content" android:background="@drawable/toolbar"
+		android:layout_width="fill_parent" android:minHeight="45dip"
+		android:gravity="center_vertical">
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:background="@drawable/toolbar_button"
+			android:minHeight="35dip" android:textAppearance="?android:attr/textAppearanceSmall"
+			android:textColor="#ffffff" android:text="Done"
+			android:layout_marginLeft="5dip" android:textSize="13dip"
+			android:id="@+id/playersButton"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:background="@drawable/toolbar_button"
+			android:minHeight="35dip" android:textAppearance="?android:attr/textAppearanceSmall"
+			android:textColor="#ffffff" android:layout_marginLeft="5dip"
+			android:textSize="13dip" android:text="Add anonymous" android:id="@+id/addAnonymous"></Button>
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:layout_gravity="center" android:gravity="center"
+			android:textColor="#ffffff" android:textStyle="bold"
+			android:textSize="13dip" android:id="@+id/playersTitle" android:text="0 player"></TextView>
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<TableLayout android:id="@+id/TableLayout01" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:gravity="left|center_vertical" android:layout_height="fill_parent">
+    <TextView android:textStyle="bold" android:lines="1" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:id="@+id/averageStackTextView" android:text="Average stack : 10000" android:layout_gravity="top|center_horizontal" android:gravity="top|center_horizontal" android:layout_height="wrap_content" android:visibility="gone"></TextView>
+<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.25" android:layout_gravity="center" android:gravity="center"><EditText android:inputType="number" android:gravity="center" android:textColor="#FFFFFF" android:id="@+id/chips0" android:maxLength="6" android:text="1"></EditText><EditText android:inputType="number" android:gravity="center" android:text="1" android:textColor="#FFFFFF" android:id="@+id/chips1" android:maxLength="6"></EditText><EditText android:inputType="number" android:gravity="center" android:text="1" android:textColor="#FFFFFF" android:id="@+id/chips2" android:maxLength="6"></EditText>
+</TableRow><TableRow android:id="@+id/TableRow02" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="0.25" android:layout_gravity="center" android:gravity="center"><EditText android:inputType="number" android:gravity="center" android:text="1" android:textColor="#FFFFFF" android:id="@+id/chips3" android:maxLength="6"></EditText><EditText android:inputType="number" android:gravity="center" android:text="1" android:textColor="#FFFFFF" android:id="@+id/chips4" android:maxLength="6"></EditText><EditText android:inputType="number" android:gravity="center" android:text="1" android:textColor="#ffffff" android:id="@+id/chips5" android:maxLength="6"></EditText>
+</TableRow><TableRow android:id="@+id/TableRow03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.25" android:gravity="center" android:layout_gravity="center"><EditText android:inputType="number" android:gravity="center" android:text="1" android:textColor="#FFFFFF" android:id="@+id/chips6" android:maxLength="6"></EditText><EditText android:inputType="number" android:gravity="center" android:text="1" android:textColor="#FFFFFF" android:id="@+id/chips7" android:maxLength="6"></EditText>
+<EditText android:textColor="#ffffff" android:inputType="number" android:maxLength="6" android:gravity="center" android:text="1" android:id="@+id/chips8"></EditText>
+</TableRow><TableRow android:id="@+id/TableRow04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.25" android:gravity="center" android:layout_gravity="center">
+
+<EditText android:layout_width="wrap_content" android:padding="10dip" android:inputType="number" android:gravity="center" android:layout_height="wrap_content" android:text="1" android:textColor="#FFFFFF" android:id="@+id/chips9" android:maxLength="6"></EditText>
+
+<EditText
+    android:id="@+id/chips10"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:inputType="number"
+    android:maxLength="6"
+    android:padding="10dip"
+    android:text="1"
+    android:textColor="#FFFFFF" >
+
+    <requestFocus />
+</EditText>
+
+<EditText
+    android:id="@+id/chips11"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:inputType="number"
+    android:maxLength="6"
+    android:padding="10dip"
+    android:text="1"
+    android:textColor="#FFFFFF" />
+
+</TableRow>
+</TableLayout>

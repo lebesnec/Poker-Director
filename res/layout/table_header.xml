@@ -1,0 +1,7 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:minHeight="58dip"
+		    android:orientation="horizontal"
+		    android:layout_width="250dip" android:minWidth="250dip" android:clickable="false" android:focusable="false" android:layout_height="58dip" android:background="@drawable/grey_border" android:gravity="center">
+    <TextView android:textStyle="bold" android:gravity="center" android:layout_height="fill_parent" android:maxLines="1" android:text="Table 10" android:layout_gravity="center" android:id="@+id/tableNumTextView" android:textSize="18dip" android:layout_width="249dip" android:textColor="#ffffff"></TextView>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="fill_parent" android:background="#898989" android:layout_width="1dip"></LinearLayout>
+</LinearLayout>

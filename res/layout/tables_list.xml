@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_gravity="center"
+	android:gravity="center" android:id="@+id/tablesMainlayout" android:focusable="true" android:focusableInTouchMode="true">
+
+	<ScrollView android:layout_height="wrap_content"
+		android:layout_weight="1" android:layout_width="fill_parent" android:id="@+id/tablesScrollView">
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:orientation="vertical" android:id="@+id/mainTablesListView">
+			<LinearLayout android:id="@+id/LinearLayout01"
+				android:layout_height="wrap_content" android:layout_width="fill_parent" android:paddingTop="3dip" android:layout_gravity="center" android:gravity="center">
+				
+				
+				
+			<EditText android:layout_height="wrap_content" android:id="@+id/nbTablesText" android:maxLines="1" android:layout_width="55dip" android:inputType="number" android:text="2" android:maxLength="3"></EditText>
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text=" table(s) of "></TextView>
+<EditText android:layout_height="wrap_content" android:layout_width="55dip" android:maxLines="1" android:id="@+id/nbPlayersText" android:inputType="number" android:maxLength="3" android:text="100"></EditText>
+<TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text=" players"></TextView>
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/summaryText" android:layout_gravity="center" android:gravity="center" android:textSize="15dip" android:text="100 seats, 100 empty, 100/150 players seated" android:layout_marginBottom="4dip"></TextView><LinearLayout android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="fill_parent" android:id="@+id/tablesListView">
+			
+
+		</LinearLayout>
+</LinearLayout>
+
+	
+</ScrollView>
+	<LinearLayout android:id="@+id/LinearLayout06"
+		android:layout_height="wrap_content" android:background="@drawable/toolbar"
+		android:layout_width="fill_parent" android:minHeight="45dip"
+		android:gravity="center_vertical">
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:background="@drawable/toolbar_button"
+			android:minHeight="35dip" android:textAppearance="?android:attr/textAppearanceSmall"
+			android:textColor="#ffffff" android:text="Done"
+			android:layout_marginLeft="5dip" android:textSize="13dip" android:id="@+id/tablesButton"></Button><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/toolbar_button" android:minHeight="35dip" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#ffffff" android:layout_marginLeft="5dip" android:textSize="13dip" android:id="@+id/randomize" android:text="Randomize"></Button>
+		
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:layout_gravity="center" android:gravity="center"
+			android:textColor="#ffffff" android:textStyle="bold"
+			android:textSize="13dip" android:id="@+id/playersTitle" android:text="Tables"></TextView>
+	</LinearLayout>
+
+</LinearLayout>

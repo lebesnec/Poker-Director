@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_height="wrap_content"
+		    android:layout_width="fill_parent"
+		    android:orientation="horizontal"
+		    android:gravity="center_vertical" 
+		    android:focusable="true"
+		    android:background="@android:drawable/list_selector_background">
+		     
+    
+    
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" 
+		    android:maxLines="1" 
+		    android:ellipsize="end" 
+		    android:layout_gravity="center_vertical" 
+		    android:layout_height="wrap_content" android:id="@+id/number" android:text="1" android:gravity="right|center_vertical" android:paddingRight="15dip" android:layout_width="wrap_content" android:layout_weight="1"/>
+    
+    <EditText android:layout_height="wrap_content" android:id="@+id/percent" android:inputType="number" android:text="100" android:gravity="right|center_vertical" android:layout_width="60dip" android:maxLength="3"></EditText><TextView android:textAppearance="?android:attr/textAppearanceMedium" 
+		    android:maxLines="1" 
+		    android:ellipsize="end" 
+		    android:layout_gravity="center_vertical" 
+		    android:gravity="center_vertical" android:layout_height="wrap_content" android:paddingRight="5dip" android:paddingLeft="3dip" android:id="@+id/resultlabel" android:text="% = 100 $" android:layout_width="160dip"/><View android:id="@+id/divider"
+        android:background="#ff313431"
+        android:layout_width="1dip"
+        android:layout_height="fill_parent"
+        android:paddingLeft="8dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip" />
+
+    <view class="poker.tm.ImageHolder" 
+    	android:focusable="true"
+    	android:id="@+id/list_button"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:paddingLeft="6dip"
+        android:paddingRight="6dip"
+        android:background="@android:drawable/list_selector_background" 
+        android:scaleType="center" android:src="@drawable/remove"/>
+
+
+
+</LinearLayout>

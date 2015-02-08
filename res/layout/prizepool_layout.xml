@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:id="@+id/chipsMainlayout" android:layout_gravity="center" android:gravity="center" android:layout_width="fill_parent" android:focusable="true" android:focusableInTouchMode="true">
+	
+	
+
+	
+
+	
+
+
+
+<ScrollView android:id="@+id/ScrollView01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1"><LinearLayout android:id="@+id/LinearLayout04" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"><LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginLeft="5dip" android:layout_marginRight="5dip" android:layout_marginTop="5dip" android:id="@+id/LinearLayout00"><TextView android:id="@+id/TextView02" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="Buy-in : " android:layout_weight="1" android:layout_width="wrap_content"></TextView>
+<EditText android:layout_height="wrap_content" android:id="@+id/buyin" android:text="10" android:inputType="number" android:gravity="right|center_vertical" android:layout_width="100dip" android:maxLength="6"></EditText><TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="$ " android:layout_width="20dip" android:id="@+id/currencyTextView0"></TextView>
+
+
+</LinearLayout><LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginLeft="5dip" android:layout_marginRight="5dip">
+
+<TextView android:id="@+id/TextView02" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="Rebuy : " android:layout_weight="1" android:layout_width="wrap_content"></TextView>
+
+<EditText
+    android:id="@+id/nbRebuy"
+    android:layout_width="50dip"
+    android:layout_height="wrap_content"
+    android:gravity="right|center_vertical"
+    android:inputType="number"
+    android:maxLength="3"
+    android:text="0" >
+
+    <requestFocus />
+</EditText>
+
+<TextView
+    android:id="@+id/TextView03"
+    android:layout_width="15dip"
+    android:layout_height="wrap_content"
+    android:text="x"
+    android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center"/>
+
+<EditText
+    android:id="@+id/valRebuy"
+    android:layout_width="100dip"
+    android:layout_height="wrap_content"
+    android:gravity="right|center_vertical"
+    android:inputType="number"
+    android:maxLength="6"
+    android:text="10" />
+
+<TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/rebuyLabel" android:text="$" android:layout_width="20dip"></TextView>
+
+
+</LinearLayout><LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/LinearLayout02" android:layout_marginLeft="5dip" android:layout_marginRight="5dip" android:layout_marginBottom="5dip"><TextView android:id="@+id/TextView02" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="Addon : " android:layout_weight="1" android:layout_width="wrap_content"></TextView>
+<EditText android:layout_height="wrap_content" android:text="10" android:inputType="number" android:id="@+id/addon" android:gravity="right|center_vertical" android:layout_width="100dip" android:maxLength="6"></EditText><TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="$ " android:layout_width="20dip" android:id="@+id/currencyTextView1"></TextView>
+
+
+</LinearLayout>
+<LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent">
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_margin="5dip" android:id="@+id/totalLabel" android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="left|center_vertical" android:text="Total max. for 100 players :"></TextView>
+    <EditText android:gravity="right|center_vertical" android:inputType="number" android:text="10" android:layout_width="100dip" android:id="@+id/total" android:layout_height="fill_parent" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#FFFFFF" android:background="#00000000" android:drawableRight="@drawable/pencil" android:maxLength="6"></EditText>
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="$" android:layout_gravity="left|center_vertical" android:layout_margin="5dip" android:id="@+id/currencyTextView2"></TextView>
+</LinearLayout>
+<View android:id="@+id/divider" android:background="#ff313431" android:paddingLeft="8dip" android:layout_marginLeft="5dip" android:layout_marginRight="5dip" android:layout_width="fill_parent" android:layout_height="1dip" android:layout_marginBottom="3dip" android:layout_marginTop="3dip"/><LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/LinearLayout03" android:layout_margin="5dip"><TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="left|center_vertical" android:layout_weight="1" android:text="Paid places : "></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="left|center_vertical" android:textColor="#00ff00" android:text="sum = 90% " android:id="@+id/sumLabel"></TextView>
+
+
+
+</LinearLayout><LinearLayout android:layout_height="wrap_content" android:layout_marginBottom="5dip" android:layout_marginLeft="5dip" android:layout_marginRight="5dip" android:id="@+id/paidPlacesList" android:orientation="vertical" android:gravity="right" android:layout_width="fill_parent">
+</LinearLayout><LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_margin="5dip" android:gravity="right|center_vertical" android:id="@+id/LinearLayout04" android:layout_weight="1">
+
+
+
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/addPaidPlace" android:layout_marginRight="6dip" android:drawableRight="@drawable/create" android:background="#00000000" android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#ffffff" android:text="Add paid place "></Button>
+
+</LinearLayout></LinearLayout>
+</ScrollView><LinearLayout android:id="@+id/LinearLayout06" android:layout_height="wrap_content" android:background="@drawable/toolbar" android:layout_width="fill_parent" android:minHeight="45dip" android:gravity="center_vertical"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/toolbar_button" android:minHeight="35dip" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#ffffff" android:text="Done" android:layout_marginLeft="5dip" android:textSize="13dip" android:id="@+id/prizepoolButton"></Button>
+
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:layout_gravity="center" android:gravity="center" android:textColor="#ffffff" android:textStyle="bold" android:textSize="13dip" android:text="Buy-in &amp; prizepool"></TextView>
+</LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

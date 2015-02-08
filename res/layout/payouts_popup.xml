@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="fill_parent"
+		    android:focusable="true" android:gravity="center" android:orientation="vertical" android:layout_height="fill_parent">
+		    
+		    <ScrollView android:layout_height="wrap_content"
+		android:layout_weight="1" android:layout_width="fill_parent"
+		android:id="@+id/playersScrollView">
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:orientation="vertical" android:id="@+id/mainPlayersListView">
+			
+
+		<LinearLayout android:layout_width="fill_parent" android:orientation="vertical" android:id="@+id/playersListView" android:layout_height="fill_parent">
+			
+
+		</LinearLayout></LinearLayout>
+
+	</ScrollView>
+		    
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal" android:layout_gravity="center" android:gravity="center">
+<Button android:layout_height="wrap_content" android:layout_width="100sp" android:id="@+id/payoutButtonClose" android:text="Close"></Button>
+</LinearLayout>
+</LinearLayout>

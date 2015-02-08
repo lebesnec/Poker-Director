@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Poker director Beta</string>
+    <string name="app_desc">Poker tournament manager (beta)</string>
+    <string name="legal_bullshit">© Christophe le Besnerais. All rights reserved.\n\nColor picker by Daniel Nilsson.\nSome icons courtesy of www.androidicons.com</string>
+    
+    <string-array name="pref_volume_choices">
+    	<item>None</item>
+        <item>Low</item>
+        <item>Loud</item>
+        <item>Louder</item>
+        <item>Loudest</item>
+    </string-array>
+    
+    <string-array name="pref_volume_values" translatable="false">
+    	<item>0.0</item>
+        <item>0.25</item>
+        <item>0.5</item>
+        <item>0.75</item>
+        <item>1.0</item>
+    </string-array>
+    
+    <string-array name="pref_timer_choices">
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>3 minutes</item>
+    </string-array>
+    
+    <string-array name="pref_timer_values" translatable="false">
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </string-array>
+    
+    <string-array name="pref_background_choices">
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Black</item>
+        <item>Red</item>
+    </string-array>
+    
+    <string-array name="pref_background_values" translatable="false">
+        <item>green</item>
+        <item>blue</item>
+        <item>black</item>
+        <item>red</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_height="wrap_content"
+		    android:minHeight="30dip"
+		    android:layout_width="fill_parent"
+		    android:weightSum="100"
+		    android:orientation="horizontal"
+		    android:gravity="center" android:background="@drawable/header">
+		    
+	<TextView android:layout_width="22dip"
+	         android:layout_height="wrap_content"
+	         android:textAppearance="?android:attr/textAppearanceMedium"
+	         android:maxLines="1"
+	         android:ellipsize="end"
+	         android:gravity="left" />
+		    
+	<TextView android:layout_weight="25"
+	         android:layout_width="0dip"
+	         android:layout_height="wrap_content"
+	         android:textAppearance="?android:attr/textAppearanceMedium"
+	         android:maxLines="1"
+	         android:ellipsize="end"
+	         android:gravity="center" 
+	         android:inputType="number" android:text="SB" android:textColor="#ffffff"/>
+	         
+	<View android:background="#ff313431"
+        android:layout_width="1dip"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip" />
+         
+    <TextView android:layout_weight="25"
+	         android:layout_width="0dip"
+	         android:layout_height="wrap_content"
+	         android:textAppearance="?android:attr/textAppearanceMedium"
+	         android:maxLines="1"
+	         android:ellipsize="end"
+	         android:gravity="center"
+	         android:inputType="number" android:text="BB" android:textColor="#ffffff"/>
+	         
+	<View android:background="#ff313431"
+        android:layout_width="1dip"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip" />         
+	         
+	<TextView android:layout_weight="25"
+	         android:layout_width="0dip"
+	         android:layout_height="wrap_content"
+	         android:textAppearance="?android:attr/textAppearanceMedium"
+	         android:maxLines="1"
+	         android:ellipsize="end"
+	         android:gravity="center"
+	         android:inputType="number" android:text="Antes" android:textColor="#ffffff"/>
+	         
+	<View android:background="#ff313431"
+        android:layout_width="1dip"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip" />
+	         
+	<TextView android:layout_weight="25"
+	         android:layout_width="0dip"
+	         android:layout_height="wrap_content"
+	         android:textAppearance="?android:attr/textAppearanceMedium"
+	         android:maxLines="1"
+	         android:ellipsize="end"
+	         android:gravity="center"
+	         android:inputType="number" android:text="Time" android:textColor="#ffffff"/>
+	         
+	<View android:background="#ff313431"
+        android:layout_width="1dip"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+        android:visibility="invisible" />
+	         
+	 <view class="poker.tm.ImageHolder" 
+   		android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:paddingLeft="1dip"
+        android:paddingRight="1dip"
+        android:background="@android:drawable/list_selector_background" 
+        android:src="@drawable/delete"
+        android:scaleType="center" 
+        android:visibility="invisible"/>
+        
+</LinearLayout>

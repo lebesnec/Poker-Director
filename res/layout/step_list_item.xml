@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_height="wrap_content"
+		    android:minHeight="50dip"
+		    android:layout_width="fill_parent"
+		    android:weightSum="100"
+		    android:paddingTop="0dip"
+		    android:orientation="horizontal"
+		    android:gravity="center" >
+		    
+	<TextView android:id="@+id/list_item_pos"
+	         android:layout_width="22dip"
+	         android:layout_height="wrap_content"
+	         android:textAppearance="?android:attr/textAppearanceMedium"
+	         android:maxLines="1"
+	         android:singleLine="true"
+	         android:ellipsize="end"
+	         android:gravity="center" />
+		    
+	<EditText android:id="@+id/list_item_sb"
+	         android:layout_weight="25"
+	         android:layout_width="0dip"
+	         android:layout_height="fill_parent"
+	         android:textAppearance="?android:attr/textAppearanceMedium"
+	         android:maxLines="1"
+	         android:singleLine="true"
+	         android:ellipsize="end"
+	         android:gravity="center" 
+	         android:inputType="number" android:maxLength="6"/>
+         
+    <EditText android:id="@+id/list_item_bb"
+	         android:layout_weight="25"
+	         android:layout_width="0dip"
+	         android:layout_height="fill_parent"
+	         android:textAppearance="?android:attr/textAppearanceMedium"
+	         android:maxLines="1"
+	         android:singleLine="true"
+	         android:ellipsize="end"
+	         android:gravity="center"
+	         android:inputType="number" android:maxLength="6"/>      
+	         
+	<EditText android:id="@+id/list_item_antes" 
+	         android:layout_weight="25"
+	         android:layout_width="0dip"
+	         android:layout_height="fill_parent"
+	         android:textAppearance="?android:attr/textAppearanceMedium"
+	         android:maxLines="1"
+	         android:singleLine="true"
+	         android:ellipsize="end"
+	         android:gravity="center"
+	         android:inputType="number" android:maxLength="6"/>
+	         
+	<EditText android:id="@+id/list_item_duration"
+	         android:layout_weight="25"
+	         android:layout_width="0dip"
+	         android:layout_height="fill_parent"
+	         android:textAppearance="?android:attr/textAppearanceMedium"
+	         android:maxLines="1"
+	         android:singleLine="true"
+	         android:ellipsize="end"
+	         android:gravity="center"
+	         android:inputType="number" android:maxLength="6"/>
+	         
+	 <view class="poker.tm.ImageHolder" 
+   		android:id="@+id/list_step_button"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:paddingRight="5dip"
+        android:background="@android:drawable/list_selector_background"
+        android:focusable="true" 
+        android:src="@drawable/more"
+        android:scaleType="center"
+        android:gravity="center" />
+        
+</LinearLayout>

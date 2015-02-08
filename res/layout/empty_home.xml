@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:gravity="center" android:layout_gravity="center" android:layout_height="fill_parent" android:paddingTop="50sp"><ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo3" android:layout_gravity="center"></ImageView>
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:textColor="#ffffff" android:gravity="center" android:layout_margin="15sp" android:text="Welcome to Poker director. Use the button below to create you first tournament !" android:textSize="17sp"></TextView>
+<ImageView android:id="@+id/ImageView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:src="@drawable/logo4"></ImageView>
+</LinearLayout>

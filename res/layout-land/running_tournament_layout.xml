@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_gravity="center" android:gravity="center" android:id="@+id/runningTournamentMainlayout">
+	
+	
+
+	
+
+	
+
+
+
+<HorizontalScrollView android:layout_weight="1" android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/runningTournamentScrollView"><LinearLayout android:id="@+id/LinearLayout01" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="center"><LinearLayout android:layout_height="fill_parent" android:orientation="vertical" android:id="@+id/tournamentLayout" android:layout_width="wrap_content" android:padding="5sp"><LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:gravity="center" android:layout_width="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#ffffff" android:id="@+id/currentAntesTextView"></TextView><ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/stepImageView" android:src="@drawable/bank" android:layout_gravity="center" android:paddingRight="5dip"></ImageView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/currentBlindsTextView" android:textColor="#ffffff" android:textSize="50sp" android:text="1000/2000 (+400)"></TextView>
+</LinearLayout>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/nextBlindsTextView" android:textColor="#B5B5B5" android:text="Next : 2000/4000 (+ 400)" android:textSize="23sp"></TextView>
+
+<TextView android:layout_height="wrap_content" android:layout_weight="1" android:textColor="#ffffff" android:text="00:00" android:id="@+id/timer" android:textSize="90sp" android:layout_width="fill_parent" android:gravity="center"></TextView><TextView android:layout_height="wrap_content" android:textColor="#ffffff" android:id="@+id/pauseTextView" android:layout_width="fill_parent" android:textSize="15sp" android:gravity="center" android:text='tap "Play" to continue'></TextView>
+
+
+
+
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_height="wrap_content" android:layout_width="fill_parent"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/totalDurationTextView" android:textColor="#ffffff" android:textSize="15sp" android:text="Running since 10h 18m 37s"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/nextBreakTextView" android:textColor="#ffffff" android:textSize="15sp" android:text="Next break in 10h 15m 37s" android:layout_weight="1" android:gravity="right"></TextView></LinearLayout></LinearLayout><include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/chips_grid" android:id="@+id/chipsGrid" android:layout_gravity="left|center_vertical"></include><include android:layout_width="wrap_content" layout="@layout/players_grid" android:id="@+id/playersGrid" android:layout_height="fill_parent" android:layout_gravity="top|left"></include>
+</LinearLayout>
+
+</HorizontalScrollView><LinearLayout android:id="@+id/LinearLayout06" android:layout_height="wrap_content" android:background="@drawable/toolbar" android:layout_width="fill_parent" android:minHeight="45dip" android:gravity="center_vertical"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/toolbar_button" android:minHeight="35dip" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#ffffff" android:layout_marginLeft="5dip" android:textSize="13dip" android:id="@+id/stopButton" android:text="Stop"></Button><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/toolbar_button" android:minHeight="35dip" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#ffffff" android:textSize="13dip" android:id="@+id/playButton" android:layout_weight="1" android:layout_marginLeft="15dip" android:layout_marginRight="15dip" android:textStyle="bold" android:text="Pause"></Button><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/toolbar_button" android:minHeight="35dip" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#ffffff" android:textSize="13dip" android:id="@+id/timerButton" android:text="Timer" android:layout_marginRight="5dip"></Button>
+
+
+</LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_gravity="center"
+	android:gravity="center" android:id="@+id/playersMainlayout">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_height="wrap_content"
+		    android:minHeight="30dip"
+		    android:layout_width="fill_parent"
+		    android:weightSum="100"
+		    android:orientation="horizontal"
+		    android:background="@drawable/header" android:gravity="right|center_vertical">         
+	         
+	<TextView android:layout_height="wrap_content"
+	         android:textAppearance="?android:attr/textAppearanceMedium"
+	         android:maxLines="1"
+	         android:ellipsize="end"
+	         android:textColor="#ffffff" android:layout_width="80dip" android:text="spend" android:gravity="right|center_vertical"/>
+	         
+	<View android:layout_width="1dip"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip" android:layout_marginRight="5dip" android:background="#ff313431"/>
+	         
+	<TextView android:layout_height="wrap_content"
+	         android:textAppearance="?android:attr/textAppearanceMedium"
+	         android:maxLines="1"
+	         android:ellipsize="end"
+	         android:textColor="#ffffff" android:gravity="center" android:layout_width="60dip" android:text="win"/>
+        
+</LinearLayout>
+
+	<ScrollView android:layout_height="wrap_content"
+		android:layout_weight="1" android:layout_width="fill_parent"
+		android:id="@+id/playersScrollView">
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:orientation="vertical" android:id="@+id/mainPlayersListView">
+			
+
+		<LinearLayout android:layout_width="fill_parent" android:orientation="vertical" android:id="@+id/playersListView" android:layout_height="fill_parent">
+			
+
+		</LinearLayout></LinearLayout>
+
+	</ScrollView>
+	<LinearLayout android:id="@+id/LinearLayout06"
+		android:layout_height="wrap_content" android:background="@drawable/toolbar"
+		android:layout_width="fill_parent" android:minHeight="45dip" android:gravity="center">
+		<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:layout_gravity="center" android:gravity="center" android:textColor="#ffffff" android:textStyle="bold" android:textSize="13dip" android:text="Payouts"></TextView><Button android:layout_height="wrap_content" android:background="@drawable/toolbar_button" android:minHeight="35dip" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#ffffff" android:textSize="13dip" android:id="@+id/endButton" android:gravity="center" android:layout_gravity="center" android:text="Done" android:layout_marginRight="3dip" android:layout_width="wrap_content"></Button>
+		
+
+		
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" > 
+	
+	<PreferenceCategory android:title="Notifications" >
+	
+		<CheckBoxPreference android:key="notify_notification" 
+							android:defaultValue="true"
+							android:title="Status bar notification" />
+							
+		<RingtonePreference android:key="ringtone_notify" 
+							android:title="Sound"
+							android:showDefault="true"
+							android:showSilent="true"
+							android:ringtoneType="notification" /> 
+							
+		<ListPreference android:key="notify_sound_volume"
+				         android:title="Sound volume"
+				         android:defaultValue="0.5"
+				         android:entries="@array/pref_volume_choices"
+				         android:entryValues="@array/pref_volume_values"
+				         android:dialogTitle="Volume" />
+							
+		<CheckBoxPreference android:key="notify_toast" 
+							android:defaultValue="false"
+							android:title="Popup message" />  
+							
+		<CheckBoxPreference android:key="notify_screen" 
+							android:defaultValue="true"
+							android:title="Turn screen on"
+							android:summary="(when a new step starts)" />
+						
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="Others">
+	
+	<CheckBoxPreference android:key="power_management_off" 
+						android:defaultValue="true"
+						android:title="Keep screen on"
+						android:summary="(during tournament)" />  
+		                
+		<ListPreference android:key="timer_duration"
+	         android:title="Timer duration"
+	         android:defaultValue="60"
+	         android:entries="@array/pref_timer_choices"
+	         android:entryValues="@array/pref_timer_values"
+	         android:dialogTitle="Timer duration" />
+			                
+		<ListPreference android:key="background"
+	         android:title="Background"
+	         android:defaultValue="black"
+	         android:entries="@array/pref_background_choices"
+	         android:entryValues="@array/pref_background_values"
+	         android:dialogTitle="Background" />
+	         
+	    <EditTextPreference android:key="currency" 
+						android:defaultValue="$"
+						android:title="Currency"
+						android:dialogTitle="Currency"
+						android:maxLength="3"/>
+         
+    </PreferenceCategory>
+						
+</PreferenceScreen>

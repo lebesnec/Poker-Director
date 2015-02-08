@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_gravity="center"
+	android:gravity="center" android:id="@+id/tablesMsglayout">
+
+	
+
+<TextView android:layout_height="wrap_content" android:id="@+id/msgTextView" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="fill_parent" android:layout_gravity="center" android:gravity="center" android:text='Add some players to your tournament, and you will be able to choose their seat here ! You can add people to the tournament in the "Players" screen.' android:layout_marginBottom="10dip" android:layout_marginTop="10dip"></TextView><Button android:layout_height="wrap_content" android:text="OK" android:id="@+id/ButtonOK" android:layout_width="120dip" android:layout_marginBottom="10dip"></Button>
+
+</LinearLayout>
