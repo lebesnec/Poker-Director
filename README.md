@@ -6,6 +6,11 @@ Poker Director is a powerfull and easy to use poker tournament organizer and tim
 
 You can install from the Play Store here : https://play.google.com/store/apps/details?id=poker.tm
 
-The app has not been updated since a long time so you will probably have some problem with the lastest Android Version.
+The support forum for the users on Google Groups : https://groups.google.com/forum/#!forum/poker-director (not in use anymore).
 
-I don't have the time to update this app anymore, so I just put the source code here if anyone want to use it. 
+The app has not been updated since a long time so you will probably have some problem with the lastest Android version.
+
+Since I don't have the time to update the app anymore, I have open sourced Poker Director. If you have the time and will to continue to improve the app, please leave a message !
+
+regards,
+Christophe
