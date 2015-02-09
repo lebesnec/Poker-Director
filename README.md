@@ -11,6 +11,3 @@ The support forum for the users on Google Groups : https://groups.google.com/for
 The app has not been updated since a long time so you will probably have some problem with the lastest Android version.
 
 Since I don't have the time to update the app anymore, I have open sourced Poker Director. If you have the time and will to continue to improve the app, please leave a message !
-
-regards,
-Christophe
