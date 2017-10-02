@@ -1,3 +1,5 @@
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 # Poker-Director
 Poker Director is a powerfull and easy to use poker tournament organizer and timer for Android.
 - define blinds and antes and duration for each steps of your tournament, and also add break or addon
